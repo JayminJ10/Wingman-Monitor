@@ -1,0 +1,57 @@
+{
+  "name": "wingman-monitor",
+  "version": "1.0.0",
+  "description": "Runtime error monitoring package that hooks into applications and reports errors to webhook endpoints",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "wingman": "./dist/cli.js"
+  },  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublish": "npm run build",
+    "test": "jest",
+    "test:wingman": "node test-wingman.js",
+    "test:webhook": "node test-webhook-server.js",
+    "test:setup": "node setup-test.js",
+    "lint": "eslint src/**/*.ts",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "error-monitoring",
+    "runtime-errors",
+    "webhook",
+    "monitoring",
+    "error-tracking"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/fs-extra": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/wingman-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/wingman-monitor/issues"
+  },
+  "homepage": "https://github.com/your-username/wingman-monitor#readme"
+}
