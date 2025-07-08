@@ -250,7 +250,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Support
 
 - 📧 Email: support@wingman-monitor.com
-- 🐛 Issues: [GitHub Issues](https://github.com/your-username/wingman-monitor/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/Manas-Nair1/wingman-monitor/issues)
 - 📖 Documentation: [Full Documentation](https://docs.wingman-monitor.com)
 
 ---
