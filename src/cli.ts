@@ -118,7 +118,7 @@ program
     try {
       console.log(chalk.blue('🛡️  Initializing Wingman monitoring...'));
       
-      const webhookUrl = options.webhook || process.env.WINGMAN_WEBHOOK_URL || 'https://patchworks-seven.vercel.app/webhook';
+      const webhookUrl = options.webhook || process.env.WINGMAN_WEBHOOK_URL || 'https://patchworks-sigma.vercel.app/webhook';
       
       // Test webhook connection and validate access token FIRST
       const testResult = await testWebhookConnection(webhookUrl, accessToken, options.env);

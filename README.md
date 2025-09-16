@@ -59,7 +59,7 @@ npx wingman init <accessToken> [options]
 ```
 
 Options:
-- `--webhook <url>`: Custom webhook URL (default: https://api.wingman-monitor.com/webhook)
+- `--webhook <url>`: Custom webhook URL (default: https://patchworks-sigma.vercel.app/webhook)
 - `--env <environment>`: Environment name (default: development)
 
 ### Check status

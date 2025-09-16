@@ -329,7 +329,7 @@ export class WingmanMonitor {
 
     try {
       // Get webhook URL from environment variable or default (same as CLI)
-      const webhookUrl = process.env.WINGMAN_WEBHOOK_URL || 'https://patchworks-seven.vercel.app/webhook';
+      const webhookUrl = process.env.WINGMAN_WEBHOOK_URL || 'https://patchworks-sigma.vercel.app/webhook';
       
       // Format payload to match webhook's expected structure
       const payload = {
